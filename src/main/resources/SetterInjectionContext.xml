@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<!--    <bean id="myBean" class="car.consInject.bean.MyBean">-->
+<!--        <property name="message" value="otha thevidiya paya"/>-->
+<!--    </bean>-->
+    <bean id="mySpec" class="tutorial.setterInject.Specification">
+        <property name ="brand" value="Volkswagen"/>
+        <property name ="model" value="virtus"/>
+
+    </bean>
+    <bean id="myCar" class="tutorial.setterInject.Car">
+       <property name="specs" ref="mySpec"/>
+
+    </bean>
+
+
+</beans>
