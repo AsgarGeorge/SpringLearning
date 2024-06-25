@@ -1,4 +1,4 @@
-package tutorial.tutorial.autowire.byName;
+package tutorial.autowire.byType;
 
 public class Specification {
 

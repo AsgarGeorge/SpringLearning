@@ -1,4 +1,4 @@
-package tutorial.tutorial.autowire.autowire.byConstructor;
+package tutorial.autowire.byName;
 
 
 public class Car {

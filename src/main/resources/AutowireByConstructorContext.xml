@@ -17,12 +17,12 @@
 
 
 
-    <bean id="specs" class="tutorial.tutorial.autowire.byName.Specification">
+    <bean id="specs" class="tutorial.autowire.byConstructor.Specification">
         <property name ="brand" value="BWM"/>
         <property name ="model" value="M5 comp"/>
 
     </bean>
-    <bean id="myCar" class="tutorial.tutorial.autowire.byName.Car" autowire="byName">
+    <bean id="myCar" class="tutorial.autowire.byConstructor.Car" autowire="constructor">
 
 
     </bean>

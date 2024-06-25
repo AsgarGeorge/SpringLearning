@@ -1,4 +1,4 @@
-package tutorial.tutorial.autowire.autowire.byConstructor;
+package tutorial.autowire.byType;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
