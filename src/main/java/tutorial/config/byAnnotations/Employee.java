@@ -1,4 +1,4 @@
-package tutorial.componentScan;
+package tutorial.config.byAnnotations;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -7,13 +7,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class Employee {
 
-    @Value("101")
+    @Value("103")
     private int employeeId;
 
-    @Value("yuvanesh")
+    @Value("aakash")
     private String firstName;
 
-    @Value("km")
+    @Value("smart")
     private String lastName;
 
     @Value("9000")
