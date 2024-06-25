@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--    the spring framework autowire the bean "ByNAME" , the same of the dependent object need to be-->
+<!-- same with the bean configuration (i.e ID of bean)-->
+
+
+
+<!--    setter is important for the autowiring-->
+<!--    setter name should be same as bean name -->
+
+
+
+
+
+    <bean id="specs" class="tutorial.tutorial.autowire.byName.Specification">
+        <property name ="brand" value="BWM"/>
+        <property name ="model" value="M5 comp"/>
+
+    </bean>
+    <bean id="myCar" class="tutorial.tutorial.autowire.byName.Car" autowire="byName">
+
+
+    </bean>
+
+
+</beans>
